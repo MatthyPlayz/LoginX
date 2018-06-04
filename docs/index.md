@@ -1,7 +1,7 @@
 %LoginX - Home
 # LoginX
 Welcome to the LoginX Page!
-
+[Example of LoginX page](example.html)
 
 
 
