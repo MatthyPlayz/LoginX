@@ -1,3 +1,4 @@
+%LoginX - Home
 # LoginX
 Welcome to the LoginX Page!
 
