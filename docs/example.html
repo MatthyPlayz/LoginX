@@ -5,6 +5,7 @@
 !Make sure to hide the localStorage viewer.        !
 +==================================================+
 -->
+<button onclick="back()">Go back to LoginX - Home</button>
 <button onclick="register()">Register</button>
 <button onclick="login()">Login</button>
 <h2>Register:</h2>
@@ -44,6 +45,9 @@ function register() {
   localStorage.setItem("lou", lou);
   localStorage.setItem("username" + loulen.toString(), regname.value);
   localStorage.setItem("password" + loulen.toString(), regpass.value);
+}
+function back() {
+  window.open("index.md", '_blank');
 }
 function login() {
   if(lusername.value == localStorage.getItem("username" + loulen.toString()) && lpassword.value == localStorage.getItem("password" + loulen.toString()))
